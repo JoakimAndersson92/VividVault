@@ -62,7 +62,6 @@ export const authOptions: NextAuthOptions = {
       clientSecret: env.AUTH0_CLIENT_SECRET,
       issuer: env.AUTH0_ISSUER
     })
-    
     /**
      * ...add more providers here.
      *
